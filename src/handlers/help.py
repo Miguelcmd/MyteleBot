@@ -7,7 +7,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     "Here's what I can do (for now):\n"
     "/start - Greet ya like a boss\n"
     "/help - Show this awesome guide\n"
-    "\n📎 Drop a CSV file - I’ll sniff through it like a truffle pig 🐷📊\n"
+    "\n📎 Drop a CSV or XLSX file - I’ll sniff through it like a truffle pig 🐷📊\n"
     "\nMore cool stuff coming soon 🤘"
     )
 
