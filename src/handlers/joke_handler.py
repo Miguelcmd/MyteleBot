@@ -12,7 +12,7 @@ async def joke(update: Update, context: ContextTypes.DEFAULT_TYPE):
         setup = joke.get("setup", "I got nothin’...")
         punchline = joke.get("punchline", "Well, that’s awkward.")
 
-        await update.message.reply_text(f"😄 {setup}\n\n🤣 {punchline}")
+        await update.message.reply_text(f"😄 {setup}\n\n {punchline}🤣")
 
     except Exception as e:
         await update.message.reply_text("😕 Oops! Can't reach the joke realm right now.")
